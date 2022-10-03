@@ -27,7 +27,9 @@ class App extends Component {
             <span className="tag">CSS</span>
           </div>
           <p className="project-link">
-            https://github.com/arunkumar413/Calendar{" "}
+            <a className="link" href="https://github.com/arunkumar413/Calendar">
+              https://github.com/arunkumar413/Calendar{" "}
+            </a>
           </p>
         </div>
         <div className="project-block">
@@ -43,8 +45,15 @@ class App extends Component {
             <span className="tag">CSS</span>
             <span className="tag">Material UI</span>
           </div>
+          <p className="project-link"></p>
+
           <p className="project-link">
-            https://github.com/arunkumar413/pradarshana
+            <a
+              className="link"
+              href="https://github.com/arunkumar413/pradarshana"
+            >
+              https://github.com/arunkumar413/pradarshana
+            </a>
           </p>
         </div>
       </div>

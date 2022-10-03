@@ -1,12 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
   padding-left: 2rem;
-
   background-color: #fceabb;
 }
 
 .name {
   color: #ed213a;
+  margin-bottom: 0px;
 }
 
 h1 {
@@ -42,10 +42,15 @@ h2 {
 
 .project-link {
   font-size: 2rem;
-  background-color: #f8ffae;
+  /* background-color: #f8ffae; */
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 1rem;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .project-block {
@@ -60,7 +65,7 @@ h2 {
 }
 
 .tag {
-  font-size: 2rem;
+  font-size: 1.8rem;
   background-color: #5cdb95;
   padding: 0.4rem;
   padding-left: 1rem;
