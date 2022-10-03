@@ -24,9 +24,13 @@ h2 {
   font-size: 2.5rem;
 }
 
+.projects-container {
+}
+
 .project-heading {
   margin: 0px;
   margin-top: 1rem;
+  color: #799f0c;
 }
 
 .head-item {
@@ -55,7 +59,7 @@ h2 {
 .project-link {
   font-size: 1.5rem;
   /* background-color: #f8ffae; */
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
   padding-right: 1rem;
   border-radius: 1rem;
   text-decoration: none;
@@ -69,7 +73,7 @@ h2 {
   /* border-radius: 2rem; */
   padding: 1rem;
   margin-bottom: 1rem;
-  border-bottom: solid 3px #ce3175;
+  border-bottom: solid 1px #ce3175;
 }
 
 .details {
@@ -77,14 +81,25 @@ h2 {
 }
 
 .tag {
-  font-size: 1.8rem;
-  background-color: #5cdb95;
-  padding: 0.4rem;
-  padding-left: 1rem;
+  font-size: 1.2rem;
+  /* background-color: #006b54; */
+  /* background-color: #8ee53f; */
+  /* background-color: #0b486b; */
+  /* background-color: #add100; */
+  /* padding: 0.4rem; */
   padding-right: 1rem;
   margin-right: 1rem;
   border-radius: 1rem;
-  color: #480048;
+  color: #cf0234;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+.highlight {
+  background-color: #76cd26;
+  padding: 0.2rem;
+  padding-right: 2rem;
+  color: white;
+  font-weight: bold;
 }
