@@ -11,6 +11,7 @@ body {
 }
 
 .name {
+  margin-top: 0px;
   color: #ed213a;
   margin-bottom: 0px;
 }
