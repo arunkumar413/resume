@@ -5,12 +5,14 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <div className="header">
-        <h1 className="name">Arun Kumar Kadari</h1>
+      <div>
+        <div className="header">
+          <h1 className="name">Arun Kumar Kadari</h1>
+          <p className="job-title head-item">Fullstack Developer</p>
+          <p className="head-item">9966288507</p>
+          <p className="head-item">arunkumar413@gmail.com</p>
+        </div>
 
-        <p className="job-title head-item">Fullstack Developer</p>
-        <p className="head-item">9966288507</p>
-        <p className="head-item">arunkumar413@gmail.com</p>
         <h2 className="project-heading">Projects</h2>
 
         <div className="project-block">
