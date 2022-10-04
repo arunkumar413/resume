@@ -27,7 +27,7 @@ export function Pradarshana() {
       </div>
 
       <div className="preview-link">
-        <a href="https://arunkumar413.github.io/tippani/" target="_blank">
+        <a href="https://arunkumar413.github.io/pradarshana/" target="_blank">
           Preview app
         </a>
       </div>
