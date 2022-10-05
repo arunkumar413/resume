@@ -114,12 +114,13 @@ h2 {
   text-decoration: none;
   width: max-content;
   border-radius: 1rem;
+  font-family: sans-serif;
 }
 
 .preview-link > a {
   text-decoration: none;
   color: blue;
   font-size: 1.2rem;
-  font-weight: bold;
   width: max-content;
+  font-weight: 200;
 }
