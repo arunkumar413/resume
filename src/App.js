@@ -12,7 +12,7 @@ class App extends Component {
         <div className="header">
           <h1 className="name">Arun Kumar Kadari</h1>
           <p className="job-title head-item">Fullstack Developer</p>
-          <p className="head-item">9966288507</p>
+          <p className="head-item">+919966288507</p>
           <p className="head-item">arunkumar413@gmail.com</p>
         </div>
 
