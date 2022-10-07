@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.5ba6ae43.css",
-  "main.css.map": "static/css/main.5ba6ae43.css.map",
-  "main.js": "static/js/main.187c1c42.js",
-  "main.js.map": "static/js/main.187c1c42.js.map"
+  "files": {
+    "main.css": "/my-new-resume/static/css/main.ad232258.css",
+    "main.js": "/my-new-resume/static/js/main.dc15850e.js",
+    "index.html": "/my-new-resume/index.html",
+    "main.ad232258.css.map": "/my-new-resume/static/css/main.ad232258.css.map",
+    "main.dc15850e.js.map": "/my-new-resume/static/js/main.dc15850e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad232258.css",
+    "static/js/main.dc15850e.js"
+  ]
 }
