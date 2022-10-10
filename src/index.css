@@ -127,16 +127,17 @@ h2 {
 
 .skill {
   border-top: 1rem;
-  background-color: #77a1d3;
-  padding: 1rem;
+  background-color: #02aab0;
+  padding: 0.6rem;
   border-radius: 1rem;
   text-align: center;
   font-size: 1.2rem;
+  color: white;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(10, 1fr);
   grid-gap: 0.5rem;
   text-align: center;
 }
