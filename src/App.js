@@ -3,6 +3,7 @@ import "./App.css";
 import { Calendar } from "./Calendar";
 import { Pradarshana } from "./pradarshana";
 import { ServonkSettings } from "./servonkProject";
+import { Skills } from "./skills";
 import { TippaniProject } from "./tippaniProject";
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
           <ServonkSettings />
           <TippaniProject />
         </div>
+        <Skills />
       </div>
     );
   }
