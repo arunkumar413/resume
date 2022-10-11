@@ -149,6 +149,7 @@ h2 {
 
 .links-container > h2 {
   color: #799f0c;
+  margin-bottom: 0px;
 }
 
 .links-container > p {
@@ -168,4 +169,8 @@ h2 {
   font-size: 1.2rem;
   color: white;
   border-radius: 1rem;
+}
+
+.links-grid a {
+  color: #44071c;
 }
