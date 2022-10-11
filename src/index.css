@@ -142,3 +142,30 @@ h2 {
   grid-gap: 0.5rem;
   text-align: center;
 }
+
+.links-container {
+  padding-left: 1rem;
+}
+
+.links-container > h2 {
+  color: #799f0c;
+}
+
+.links-container > p {
+  padding: 1rem;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.links-grid > p {
+  background-color: #ff6e7f;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 1rem;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import { Calendar } from "./Calendar";
+import { Links } from "./Links";
 import { Pradarshana } from "./pradarshana";
 import { ServonkSettings } from "./servonkProject";
 import { Skills } from "./skills";
@@ -26,6 +27,7 @@ class App extends Component {
           <TippaniProject />
         </div>
         <Skills />
+        <Links/>
       </div>
     );
   }
