@@ -12,7 +12,9 @@ export function Skills() {
         <div className="skill">ExpressJs</div>
         <div className="skill">ReactJs</div>
         <div className="skill">Material UI</div>
-        <div className="skill">ReactJs</div>
+        <div className="skill">TypeScript</div>
+        <div className="skill">OpenAPI</div>
+
       </div>
     </div>
   );
