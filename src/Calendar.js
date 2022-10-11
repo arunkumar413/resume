@@ -7,7 +7,7 @@ export function Calendar() {
       <p className="details">
         A simple calendar application based on react with great visual asthetics
       </p>
-      <div className="l">i
+      <div className="l">
         {" "}
         <p className="project-link">
           <a
