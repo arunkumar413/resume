@@ -7,16 +7,23 @@ export function Calendar() {
       <p className="details">
         A simple calendar application based on react with great visual asthetics
       </p>
-
-      <p className="project-link">
-        <a
-          className="link"
-          href="https://github.com/arunkumar413/Calendar"
-          target="_blank"
-        >
-          https://github.com/arunkumar413/Calendar{" "}
-        </a>
-      </p>
+      <div className="l">i
+        {" "}
+        <p className="project-link">
+          <a
+            className="link"
+            href="https://github.com/arunkumar413/Calendar"
+            target="_blank"
+          >
+            https://github.com/arunkumar413/Calendar{" "}
+          </a>
+        </p>
+        <div className="preview-link">
+          <a href="https://arunkumar413.github.io/Calendar/" target="_blank">
+            Preview app
+          </a>
+        </div>
+      </div>
       <div className="tags">
         {/* <span className="tag highlight">Skills:</span> */}
         <span className="tag">Nodejs</span>
@@ -24,12 +31,6 @@ export function Calendar() {
         <span className="tag">React</span>
         <span className="tag">HTML</span>
         <span className="tag">CSS</span>
-      </div>
-
-      <div className="preview-link">
-        <a href="https://arunkumar413.github.io/Calendar/" target="_blank">
-          Preview app
-        </a>
       </div>
     </div>
   );
