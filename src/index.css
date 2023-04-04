@@ -5,15 +5,14 @@ body {
 }
 
 .header {
-  border: solid 2px chocolate;
   padding-left: 1rem;
-  box-shadow: 5px 5px 5px 5px lightcoral;
   border-radius: 1rem;
+  box-shadow: 5px 5px 5px 5px lightgray;
 }
 
 .name {
   margin-top: 0px;
-  color: #ed213a;
+  color: royalblue;
   margin-bottom: 0px;
 }
 
@@ -75,7 +74,9 @@ h2 {
 .project-block {
   padding: 1rem;
   margin-bottom: 1rem;
-  border-bottom: solid 1px #ce3175;
+  /* border-bottom: solid 1px #ce3175; */
+  box-shadow: 5px 5px 5px 5px lightgray;
+
 }
 
 .details {
@@ -90,10 +91,12 @@ h2 {
   /* background-color: #0b486b; */
   /* background-color: #add100; */
   /* padding: 0.4rem; */
-  padding-right: 1rem;
+
+  background-color: lightcyan;
+
+  padding: 0.5rem;
   margin-right: 1rem;
   border-radius: 1rem;
-  color: #cf0234;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
   font-style: italic;
@@ -128,12 +131,13 @@ h2 {
 
 .skill {
   border-top: 1rem;
-  background-color: #02aab0;
-  padding: 0.6rem;
+  background-color: #b0c4de66;
   border-radius: 1rem;
   text-align: center;
-  font-size: 1.2rem;
-  color: white;
+  font-size: 2rem;
+  color: #4a6cad;
+  padding-top: 1rem;
+  padding-bottom:  1rem;
 }
 
 .skills-grid {
