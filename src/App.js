@@ -6,16 +6,24 @@ import { Pradarshana } from "./pradarshana";
 import { ServonkSettings } from "./servonkProject";
 import { Skills } from "./skills";
 import { TippaniProject } from "./tippaniProject";
+import profilePic from "./profile_image.jpeg";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div className="header">
-          <h1 className="name">Arun Kumar Kadari</h1>
-          <p className="job-title head-item">Fullstack Developer</p>
-          <p className="head-item">+919966288507</p>
-          <p className="head-item">arunkumar413@gmail.com</p>
+        <div className="profile-container">
+          <div className="header">
+            <h1 className="name">Hi! I'm Arun Kumar Kadari</h1>
+            <p className="job-title head-item">
+              Working as a web developer since 8 years. I have sound knowledge
+              and deep experience in web technologies.
+            </p>
+          </div>
+
+          <div>
+            <img src={profilePic} width={"60%"} />
+          </div>
         </div>
 
         <div className="projects-container">
@@ -27,7 +35,7 @@ class App extends Component {
           <TippaniProject />
         </div>
         <Skills />
-        <Links/>
+        <Links />
       </div>
     );
   }
